@@ -1,0 +1,9 @@
+{
+  "manifest_version": 2,
+  "name": "Chrome Extension Attach Debugger",
+  "version": "1.0",
+  "permissions": ["tabs", "debugger"],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
